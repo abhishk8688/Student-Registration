@@ -1,0 +1,14 @@
+import React from 'react';
+import { AppProvider } from './context/AppContext';
+import Dashboard from './component/Dashboard';
+
+function App() {
+  return (
+   
+    <AppProvider>
+      <Dashboard />
+    </AppProvider>
+  );
+}
+
+export default App;
